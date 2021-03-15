@@ -1,0 +1,71 @@
+#content{
+	width:800px;
+  height:600px;
+  position:absolute;
+  left:150px; 
+  bottom:10px;
+  z-index:1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 48px; 
+  font-weight:bold;
+  font-style:italic;
+  text-align: left;
+  border-collapse: collapse;
+  border-radius: 20px;
+  color: #452F21; 
+  background-image:url('./../img/rainbow.png');
+  background-size: cover;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+
+}
+.table_dark {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  width: 640px;
+  top:50px;
+  text-align: center;
+  border-collapse: collapse;
+  background: #252F48;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: inset 5px 5px 50px #808080;
+}
+.table_dark caption {
+  color: #EDB749;
+  border-bottom: 1px solid #37B5A5;
+  padding: 12px 17px;
+  background: #252F48;
+  border-radius: 20px 20px 0px 0px ;
+  box-shadow: inset 5px 5px 50px #808080;
+}
+.table_dark td {
+  width:50%;
+  color: #CAD4D6;
+  border-bottom: 1px solid #37B5A5;
+  border-right:1px solid #37B5A5;
+  padding: 7px 17px;
+}
+.table_dark tr:last-child td {
+  border-bottom: none;
+}
+.table_dark td:last-child {
+  border-right: none;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#bubbob{
+  left:177px;
+  width:500px;
+  height:186px;
+	z-index:2;
+ 	position:absolute;
+  bottom:-28px;
+}

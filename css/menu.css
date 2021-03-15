@@ -1,0 +1,105 @@
+body{
+	margin: 0px;
+	background-image:url('./../img/cielo.jpg');
+	background-size: cover;
+}
+
+#menu_home{
+	padding-bottom: 15px;
+	opacity:1.0;
+}
+
+#rank_menu{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#sign_out_menu{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#game_menu{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.menu_single_section{
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+#content{
+	width: auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color: rgb(255, 255, 255);
+	font-family: 'ProximaNovaSB', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+	padding: 0px 20px;
+	margin-left: 140px;
+	text-align: left;
+	color: rgb(112, 112, 112);
+}
+
+#menu{
+	height: 60%;  
+	top: 18%;
+	left: 0px;
+	position: fixed;
+	background-color: rgb(45, 39, 65,1.0);  
+	color: rgb(170, 170, 170);
+	font-family: 'ProximaNovaSB', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+	padding: 20px 20px;
+	text-align: center;
+	border-radius: 0px 20px 20px 0px;
+	box-shadow:0 3px 7px rgba(0,0,0,0.25);
+}
+
+.user_img{
+	width: 48px;
+	height:48px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 9px;
+	background-color: rgba(170, 170, 170, 0.3);
+	background-image: url('./../img/iconuser.png');
+	background-size: cover;
+	box-shadow:0 3px 7px rgba(0,0,0,0.25);
+}
+
+.sign_out_img{
+	width: 48px;
+	height:48px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 9px;
+	background-color: rgba(170, 170, 170, 0.3);
+	background-image: url('./../img/sign_out.png');
+	background-size: cover;
+	box-shadow:0 3px 7px rgba(0,0,0,0.25);
+}
+
+.rank_img{
+	width: 48px;
+	height:48px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 9px;
+	background-color: rgba(170, 170, 170, 0.3);
+	background-image: url('./../img/iconerank.png');
+	background-size: cover;
+	box-shadow:0 3px 7px rgba(0,0,0,0.25);
+}
+
+.game_img{
+	width: 48px;
+	height:48px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 9px;
+	background-color: rgba(170, 170, 170, 0.3);
+	background-image: url('./../img/icongame.png');
+	background-size: cover;
+	box-shadow:0 3px 7px rgba(0,0,0,0.25);
+}
